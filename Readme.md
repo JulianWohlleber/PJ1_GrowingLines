@@ -1,7 +1,7 @@
 #PRJ1_GrowingLines
 In the first part of the course we learned what algorythms are, and how they are structured. We also learned the basics of the programming language Processing and lerned what generative Design is.
 ##IDEA  
-Our first contact with Programming language we got with the language we already learned: Our german language. The exercise was to simply (or event harder then thought)  formulate an algorythm that later had to be solved by the coursemates. After several changes in details and complexity the final code looked like this (german):
+Our first contact with Programming language we got with the language we already learned: Our own verbal language. The exercise was to simply (or event harder then thought)  formulate an algorythm that later had to be solved by the coursemates. After several changes in details and complexity the final code looked like this (german):
 
 	1. Wähle eine Farbe danach, wie warm du dich im Moment fühlst (zB. eine warme Farbe, Orange oder Gelb, wenn es dir Wohlig warm ist)
 	2. Male damit einen Punkt in die Mitte des Blattes 
@@ -25,7 +25,7 @@ Our first contact with Programming language we got with the language we already 
 ##REALISATION - Software
 The next exercise was to translate ower human code into processing. Fabian Moron Zirfás, our tutor, gave us some basics and much help. 
 I really was pretty confident with myself, because processing was the first programming  language I ever used at this moment, and I was happy to see, that I could at least do something with it, even if it was far away, from what I wanted to do.  After some hours of pure processing practise, I decided to look for a way to translate my human code into processing. I built some Versions with Recursion with the help of the book "Generative Gestaltung" of Hartmut Bohnacker, Benedikt Groß and Julia Laub.  
-On my way towards goal I found a really nice Idea, which I prefered compared to the Recursion-Version of my code: A straight line would run over the screen, it would always "stop" at after a certain length, choose a random direction in the angle of 90° including the one it came from, and then go on from towards this direction. 
+On my way towards goal I found a really nice Idea, which I prefered compared to the Recursion-Version of my code: A straight line would run over the screen, it would always "stop"  after a certain length, choose a random direction in the angle of 90° including the one it came from, and then go on towards this direction. 
 **My first code looked like this:**
 	  
 	  float radius = 20;
@@ -126,7 +126,7 @@ On my way towards goal I found a really nice Idea, which I prefered compared to 
 	  OLDx4 = x4;
 	  OLDy4 = y4;  
 	  } 
-Although I was pretty proud of my first solution I still didn't find it visually attractive everytime you started it. The colors where to random, and often didn't fit to each other, so I decided to specify four colors. 
+Although I was pretty proud of my first solution I still didn't find it visually attractive all times you started it. The colors where to random, and often didn't fit to each other, so I decided to specify four colors. 
 Also I found out that the occuring pictures often looked better, when the starting points of the four colors where in the edges.  After some rework time, my code Looked like this:  
 
 **the final 2D Version:**
@@ -236,9 +236,9 @@ Also I found out that the occuring pictures often looked better, when the starti
 	  OLDy4 = y4;  
 	  } 
 
-My 2D solution was done now, and as you would eventually now spaculate, I took the opportunity to built a 3D Version.  
+My 2D solution was now done, and as you would eventually now spaculate, I took the opportunity to built a 3D Version.  
 In the threedimensional solution decreased the lines to 1 single line, after I recognized, that 4 lines would be way to much to differenciate because the third dimension gave the construct a pretty high amount of visual complexity compared to the erlier version.  
-For an improved clarity I developed a kind of 3rd-dimension color: As the line moves in the 3rd dimension, the color gets warmer (nearer) and colder (further). The color scheme ranges from dark blue to red.  
+For an improved visual clarity I developed a kind of 3rd-dimension color: As the line moves in the z-dimension, the color gets warmer (nearer) and colder (further). The color scheme ranges from dark blue to red.  
 
 **the final 3D Version:**
 
@@ -332,6 +332,6 @@ For an improved clarity I developed a kind of 3rd-dimension color: As the line m
 	}   
 
 ##FINISH
-For the final presentation we also had the exercise to find an Application for our programmed Algorythm. This could be in form of an Object or a 2D print. The goal was to get the code into the real world again, after we transfered it in computer-understandable language.  
-I had the Idea to use the pattern generated in the 2D-Version in my Code to integrate it in a Lamp.  First I built a construct with would, which was then drilled and then interwoven with fishing line. Then I used wool to generate the pattern in the with boulter generated network. 
+For the final presentation we also had the exercise to find an application for our programmed algorythm. This could be in form of an object or a 2D print. The goal was to get the code into the real world again, after we transfered it in computer-understandable language.  
+I had the Idea to use the pattern generated in the 2D-Version in my Code to integrate it in a Lamp.  First I built a construct with wood, which was drilled and then interwoven with fishing line. Then I used wool to generate the pattern in the with boulter generated network. 
 At the end I covered the free areas with black carton and recessed a lightbulb and composure.
