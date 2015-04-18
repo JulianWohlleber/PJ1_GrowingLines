@@ -21,7 +21,7 @@ Our first contact with Programming language we got with the language we already 
 	13. Fahre beginnend in der Mitte jeden Strang mit dem Finger nach, und verschmiere die Kreide so ein wenig.
 	14. Vielen Dank für deine Hilfe!
 
-**results:**
+**Results:**
 ![2](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_12.png?_subject_uid=32925921&w=AAAO98pq8NeCvidDnWvwiOeNgFgAH6BbNiqJvVkeN-DlzQ)
 ![3](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_13.png?_subject_uid=32925921&w=AAC1kpe0MvSiEWVq_GcRv4DqgzFsTXaUasKiUsyFTPaH0g)
 ![3](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_14.png?_subject_uid=32925921&w=AABawErjvOTDxXTIdMZHqTYc5fKh_JhbjaQos1oMwg4bmw)
@@ -31,9 +31,10 @@ Our first contact with Programming language we got with the language we already 
 The next exercise was to translate ower human code into processing. Fabian Moron Zirfás, our tutor, gave us some basics and much help. 
 I really was pretty confident with myself, because processing was the first programming  language I ever used at this moment, and I was happy to see, that I could at least do something with it, even if it was far away, from what I wanted to do.  After some hours of pure processing practise, I decided to look for a way to translate my human code into processing. I built some Versions with Recursion with the help of the book "Generative Gestaltung" of Hartmut Bohnacker, Benedikt Groß and Julia Laub.  
 On my way towards goal I found a really nice Idea, which I prefered compared to the Recursion-Version of my code: A straight line would run over the screen, it would always "stop"  after a certain length, choose a random direction in the angle of 90° including the one it came from, and then go on towards this direction.   
+  
 **My first code looked like this:**  
 [![firstCode2D](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_21.png?_subject_uid=32925921&w=AACV_8ReUbz2NLmEIHTZHyKdUjyjAiH8rg8J3vxsu7CykA)](https://vimeo.com/125339378)
-	  
+  	  
 	 
 	  float radius = 20;
 	  
@@ -133,12 +134,12 @@ On my way towards goal I found a really nice Idea, which I prefered compared to 
 	  OLDx4 = x4;
 	  OLDy4 = y4;  
 	  } 
-	  
+    	  
 Although I was pretty proud of my first solution I still didn't find it visually attractive all times you started it. The colors where to random, and often didn't fit to each other, so I decided to specify four colors. 
 Also I found out that the occuring pictures often looked better, when the starting points of the four colors where in the edges.  After some rework time, my code Looked like this:  
-
-**the final 2D Version:**  
-  [![finalVersion](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_22.png?_subject_uid=32925921&w=AABeDtZnBQDd4eowidzl3jseuFvDDTYGzAaQSyV_k5xctw)](https://vimeo.com/125339379)
+  
+**The final 2D Version:**
+ [![finalVersion](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_22.png?_subject_uid=32925921&w=AABeDtZnBQDd4eowidzl3jseuFvDDTYGzAaQSyV_k5xctw)](https://vimeo.com/125339379)
 	  
 	  float radius = 30;
 	  
@@ -249,8 +250,8 @@ My 2D solution was now done, and as you would eventually now spaculate, I took t
 In the threedimensional solution decreased the lines to 1 single line, after I recognized, that 4 lines would be way to much to differenciate because the third dimension gave the construct a pretty high amount of visual complexity compared to the erlier version.  
 For an improved visual clarity I developed a kind of 3rd-dimension color: As the line moves in the z-dimension, the color gets warmer (nearer) and colder (further). The color scheme ranges from dark blue to red.  
 
-**the final 3D Version:**  
-  [![3D](https://www.dropbox.com/s/r97e02w2ovwbx4q/PJ1_11.png?dl=0)](https://vimeo.com/125339380)
+**The final 3D Version:**  
+  [![3D](https://dl-web.dropbox.com/get/Public%20Stuff/PJ1_23.png?_subject_uid=32925921&w=AABLT6z4dDOXjStV3TnNS6leArYtHDU3fVpulprUaLVEAw)](https://vimeo.com/125339380)
 
 	//root size
 	float radius = 50;
