@@ -1,5 +1,5 @@
   
-  float radius = 30;
+  float radius = 20;
   
   //on field - positions
   float x1, x2, x3, x4;
